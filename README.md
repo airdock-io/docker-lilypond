@@ -25,7 +25,7 @@ Few link:
 
 ## use a a local file
 ```
-  docker run -v $(PWD):/srv/ruby/lilypond:rw airdock/lilypond:latest test.ly -o test.pdf
+  docker run --rm -v $(PWD):/srv/ruby/lilypond:rw airdock/lilypond:latest test.ly -o test.pdf
 ```
 
 # Change Log
