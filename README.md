@@ -10,7 +10,6 @@ Purpose of this image is to provide [lilypond software](http://lilypond.org/inde
 
 Few link:
  - http://lilypond.org
- - https://github.com/jhuckaby/Cronicle
 
 # Tags
 
