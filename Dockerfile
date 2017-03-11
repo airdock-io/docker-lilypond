@@ -5,7 +5,7 @@
 # SOURCE:         https://github.com/airdock-io/docker-lilypond
 
 FROM airdock/rvm:latest
-MAINTAINER Jerome Guibert <jguibert@gmail.com>
+LABEL maintainer Jerome Guibert <jguibert@gmail.com>
 RUN apt-get update -qq && apt-get install -y cmake
 USER ruby
 RUN  mkdir -p /srv/ruby/lilypond && cd /srv/ruby/lilypond && \
